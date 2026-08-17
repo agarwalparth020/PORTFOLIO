@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============================================================
+       META & SEO
+       ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Parth Agarwal — Frontend Developer & Creative Designer. Building clean, responsive and visually engaging digital experiences." />
+  <meta name="author" content="Parth Agarwal" />
+  <meta name="keywords" content="Parth Agarwal, frontend developer, portfolio, HTML, CSS, web design, creative developer" />
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="Parth Agarwal — Frontend Developer & Creative Designer" />
+  <meta property="og:description" content="Building clean, responsive and visually engaging digital experiences." />
+  <meta property="og:type"        content="website" />
+
+  <title>Parth Agarwal — Portfolio</title>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="container">
+
+        <!-- Logo -->
+        <a href="#home" class="nav-logo" aria-label="Parth Agarwal — Home">
+          <div class="nav-monogram" aria-hidden="true">PA</div>
+          <span class="nav-name">Parth</span>
+        </a>
+
+        <!-- Links -->
+        <ul class="nav-links" role="list">
+          <li><a href="#home"       class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Journey</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         1. HERO SECTION
+         ============================================================ -->
+    <section id="home" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-inner">
+
+          <!-- Content -->
+          <div class="hero-content">
+            <div class="hero-label">
+              <span class="label">Hello, I'm</span>
+            </div>
+
+            <h1 class="hero-title" id="hero-heading">
+              Parth<br />
+              <span class="accent-text">Agarwal</span>
+            </h1>
+
+            <p class="hero-subtitle">Frontend Developer &amp; Creative Designer</p>
+
+            <p class="hero-desc">
+              I build clean, responsive and visually engaging digital experiences
+              by combining technology with thoughtful design.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact"  class="btn btn-outline">Let's Connect</a>
+            </div>
+
+            <div class="hero-socials">
+              <a href="https://github.com/agarwalparth020"
+                 class="social-link"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="GitHub profile">
+                <!-- GitHub icon using Unicode -->
+                &#128279; GitHub
+              </a>
+              <a href="https://linkedin.com/in/YOUR_LINKEDIN"
+                 class="social-link"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="LinkedIn profile">
+                &#128101; LinkedIn
+              </a>
+              <a href="mailto:your@email.com"
+                 class="social-link"
+                 aria-label="Send email">
+                &#9993; Email
+              </a>
+            </div>
+          </div>
+
+          <!-- Futuristic Visual -->
+          <div class="hero-visual" aria-hidden="true">
+            <div class="orb-container">
+              <!-- Rotating rings -->
+              <div class="orb-ring orb-ring-1"></div>
+              <div class="orb-ring orb-ring-2"></div>
+              <div class="orb-ring orb-ring-3"></div>
+
+              <!-- Core orb -->
+              <div class="orb-core">
+                <span class="orb-initials">PA</span>
+              </div>
+
+              <!-- Floating chips -->
+              <div class="orb-chip orb-chip-1">HTML &bull; CSS</div>
+              <div class="orb-chip orb-chip-2">C++ &bull; C</div>
+              <div class="orb-chip orb-chip-3">UI / UX</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         2. ABOUT SECTION
+         ============================================================ -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="label">Who I am</span>
+          <h2 id="about-heading">About Me</h2>
+          <div class="divider-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="about-inner">
+
+          <!-- Profile frame -->
+          <div class="profile-frame" aria-label="Profile image placeholder">
+            <div class="profile-placeholder">
+              <div class="profile-monogram" aria-hidden="true">PA</div>
+              <span class="profile-hint">Replace with your photo</span>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="about-content">
+            <p class="about-bio">
+              I'm a technology enthusiast focused on frontend development, creative design
+              and problem solving. I enjoy turning ideas into clean, intuitive and visually
+              engaging digital experiences — whether that's a polished interface, a
+              compelling product, or a clever technical solution.
+            </p>
+
+            <div class="about-info-grid">
+              <div class="info-card">
+                <div class="info-label">Focus</div>
+                <div class="info-value">Frontend Development</div>
+              </div>
+              <div class="info-card">
+                <div class="info-label">Interests</div>
+                <div class="info-value">UI / UX &bull; Technology &bull; Design</div>
+              </div>
+              <div class="info-card">
+                <div class="info-label">Currently Learning</div>
+                <div class="info-value">Advanced Web Development</div>
+              </div>
+              <div class="info-card">
+                <div class="info-label">Approach</div>
+                <div class="info-value">Simple &bull; Functional &bull; Visual</div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         3. SKILLS SECTION
+         ============================================================ -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="label">What I know</span>
+          <h2 id="skills-heading">Skills &amp; Technologies</h2>
+          <div class="divider-line" aria-hidden="true"></div>
+          <p>A focused set of tools and technologies I use to build and design.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Frontend -->
+          <div class="skill-category">
+            <div class="skill-category-label">&lt;/&gt; Frontend</div>
+
+            <div class="skill-item">
+              <div class="skill-icon" aria-hidden="true">&#128196;</div>
+              <div class="skill-info">
+                <div class="skill-name">HTML5</div>
+                <div class="skill-desc">Semantic, accessible markup</div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon" aria-hidden="true">&#127912;</div>
+              <div class="skill-info">
+                <div class="skill-name">CSS3</div>
+                <div class="skill-desc">Layouts, animations &amp; responsive design</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Programming -->
+          <div class="skill-category">
+            <div class="skill-category-label">&#9881; Programming</div>
+
+            <div class="skill-item">
+              <div class="skill-icon" aria-hidden="true">&#128187;</div>
+              <div class="skill-info">
+                <div class="skill-name">C++</div>
+                <div class="skill-desc">OOP, algorithms &amp; problem solving</div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon" aria-hidden="true">&#9000;</div>
+              <div class="skill-info">
+                <div class="skill-name">C</div>
+                <div class="skill-desc">Systems programming &amp; logic</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design -->
+          <div class="skill-category purple">
+            <div class="skill-category-label">&#9733; Design</div>
+
+            <div class="skill-item">
+              <div class="skill-icon" aria-hidden="true">&#9998;</div>
+              <div class="skill-info">
+                <div class="skill-name">Canva</div>
+                <div class="skill-desc">Graphics, posters &amp; brand assets</div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon" aria-hidden="true">&#128444;</div>
+              <div class="skill-info">
+                <div class="skill-name">Adobe Photoshop</div>
+                <div class="skill-desc">Photo editing &amp; digital art</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-category">
+            <div class="skill-category-label">&#128736; Tools</div>
+
+            <div class="skill-item">
+              <div class="skill-icon" aria-hidden="true">&#128268;</div>
+              <div class="skill-info">
+                <div class="skill-name">Git</div>
+                <div class="skill-desc">Version control &amp; branching</div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon" aria-hidden="true">&#9749;</div>
+              <div class="skill-info">
+                <div class="skill-name">GitHub</div>
+                <div class="skill-desc">Code hosting &amp; collaboration</div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon" aria-hidden="true">&#128221;</div>
+              <div class="skill-info">
+                <div class="skill-name">VS Code</div>
+                <div class="skill-desc">Primary code editor</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photography -->
+          <div class="skill-category purple" style="grid-column: span 2;">
+            <div class="skill-category-label">&#128247; Photography</div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0 2rem;">
+              <div class="skill-item">
+                <div class="skill-icon" aria-hidden="true">&#128241;</div>
+                <div class="skill-info">
+                  <div class="skill-name">Mobile Photography</div>
+                  <div class="skill-desc">Composition, lighting &amp; editing</div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon" aria-hidden="true">&#128247;</div>
+                <div class="skill-info">
+                  <div class="skill-name">DSLR Photography</div>
+                  <div class="skill-desc">Manual settings &amp; portrait work</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         4. PROJECTS SECTION
+         ============================================================ -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="label">What I've built</span>
+          <h2 id="projects-heading">Featured Projects</h2>
+          <div class="divider-line" aria-hidden="true"></div>
+          <p>Selected work spanning AI, web, and mobile development.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- ---- PROJECT 01: Buddy ---- -->
+          <article class="project-card" aria-labelledby="proj1-title">
+            <div class="project-preview preview-buddy">
+              <div class="project-number" aria-label="Project number">01</div>
+              <div class="preview-visual" aria-hidden="true">
+                <!-- Animated rings visual for AI project -->
+                <div class="vis-circles">
+                  <div class="vis-circle vis-circle-1"></div>
+                  <div class="vis-circle vis-circle-2"></div>
+                  <div class="vis-circle vis-circle-3"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title" id="proj1-title">Buddy — Local AI Vision &amp; Voice Assistant</h3>
+
+              <p class="project-desc">
+                A fully local, privacy-first smart assistant that watches a room through a phone
+                camera, recognizes when someone walks in, greets them with an AI-generated line,
+                and holds a natural spoken conversation — all without sending a single byte to the
+                cloud. Built as a personal exploration into combining computer vision, speech
+                processing, and local LLMs into one real-time pipeline.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">YOLOv8</span>
+                <span class="tag">Llama 3.1 8B</span>
+                <span class="tag">Whisper</span>
+                <span class="tag">Python</span>
+                <span class="tag">PyTorch</span>
+                <span class="tag tag-purple">Ollama</span>
+                <span class="tag tag-purple">CUDA</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#" class="project-link primary" aria-label="View Buddy project">
+                  &#8599; View Project
+                </a>
+                <span class="link-sep" aria-hidden="true">&#9632;</span>
+                <a href="#" class="project-link" aria-label="Buddy source code">
+                  &#128279; Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ---- PROJECT 02: Lala Ki Dukan ---- -->
+          <article class="project-card" aria-labelledby="proj2-title">
+            <div class="project-preview preview-lala">
+              <div class="project-number" aria-label="Project number">02</div>
+              <div class="preview-visual" aria-hidden="true">
+                <div class="vis-bars">
+                  <div class="vis-bar" style="height:40%;"></div>
+                  <div class="vis-bar" style="height:70%;"></div>
+                  <div class="vis-bar" style="height:55%;"></div>
+                  <div class="vis-bar" style="height:90%;"></div>
+                  <div class="vis-bar" style="height:60%;"></div>
+                  <div class="vis-bar" style="height:80%;"></div>
+                  <div class="vis-bar" style="height:45%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title" id="proj2-title">Lala Ki Dukan</h3>
+
+              <p class="project-desc">
+                A serverless e-commerce storefront for small Indian businesses — built with vanilla
+                HTML/CSS/JS, powered by Google Sheets as a database via Google Apps Script. Features
+                a product catalog, shopping cart, wishlist, WhatsApp-based checkout, customer
+                reviews, and a Google OAuth-protected admin panel. Zero backend cost, deployable
+                for free on Netlify or GitHub Pages.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">Vanilla CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Google Sheets</span>
+                <span class="tag tag-purple">Apps Script</span>
+                <span class="tag tag-purple">OAuth 2.0</span>
+                <span class="tag">Netlify</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#" class="project-link primary" aria-label="View Lala Ki Dukan project">
+                  &#8599; View Project
+                </a>
+                <span class="link-sep" aria-hidden="true">&#9632;</span>
+                <a href="#" class="project-link" aria-label="Lala Ki Dukan source code">
+                  &#128279; Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ---- PROJECT 03: CLUBORO ---- -->
+          <article class="project-card" aria-labelledby="proj3-title">
+            <div class="project-preview preview-cluboro">
+              <div class="project-number" aria-label="Project number">03</div>
+              <div class="preview-visual" aria-hidden="true">
+                <div class="vis-grid">
+                  <div class="vis-grid-cell"></div><div class="vis-grid-cell"></div>
+                  <div class="vis-grid-cell"></div><div class="vis-grid-cell"></div>
+                  <div class="vis-grid-cell"></div><div class="vis-grid-cell"></div>
+                  <div class="vis-grid-cell"></div><div class="vis-grid-cell"></div>
+                  <div class="vis-grid-cell"></div><div class="vis-grid-cell"></div>
+                  <div class="vis-grid-cell"></div><div class="vis-grid-cell"></div>
+                  <div class="vis-grid-cell"></div><div class="vis-grid-cell"></div>
+                  <div class="vis-grid-cell"></div><div class="vis-grid-cell"></div>
+                  <div class="vis-grid-cell"></div><div class="vis-grid-cell"></div>
+                  <div class="vis-grid-cell"></div><div class="vis-grid-cell"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title" id="proj3-title">CLUBORO — College Club Event Management App</h3>
+
+              <p class="project-desc">
+                A mobile app for college students to discover, register, and track campus club
+                events. Features a gamified leaderboard with tier-based fee discounts, event
+                wishlisting, attendance streaks, and a dedicated admin dashboard for club
+                organizers to manage events and view analytics.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">Dart</span>
+                <span class="tag">Firebase</span>
+                <span class="tag tag-purple">Firestore</span>
+                <span class="tag tag-purple">Firebase Auth</span>
+                <span class="tag">Provider</span>
+                <span class="tag">fl_chart</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#" class="project-link primary" aria-label="View CLUBORO project">
+                  &#8599; View Project
+                </a>
+                <span class="link-sep" aria-hidden="true">&#9632;</span>
+                <a href="#" class="project-link" aria-label="CLUBORO source code">
+                  &#128279; Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ---- PROJECT 04: This Portfolio ---- -->
+          <article class="project-card" aria-labelledby="proj4-title">
+            <div class="project-preview preview-portfolio">
+              <div class="project-number" aria-label="Project number">04</div>
+              <div class="preview-visual" aria-hidden="true">
+                <div class="vis-code">
+                  &lt;section id="hero"&gt;<br/>
+                  &nbsp; &lt;h1&gt;Parth&lt;/h1&gt;<br/>
+                  &nbsp; &lt;p class="sub"&gt;...&lt;/p&gt;<br/>
+                  &lt;/section&gt;<br/>
+                  .card {<br/>
+                  &nbsp; backdrop-filter: blur;<br/>
+                  }
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title" id="proj4-title">Personal Portfolio — This Website</h3>
+
+              <p class="project-desc">
+                A futuristic, minimal, fully responsive personal portfolio built using only
+                HTML5 and CSS3 — zero JavaScript, zero frameworks, zero dependencies.
+                Designed from scratch with a custom design system, CSS custom properties,
+                glass morphism cards, and subtle CSS animations.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag tag-purple">CSS Grid</span>
+                <span class="tag tag-purple">Flexbox</span>
+                <span class="tag">No JS</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#home" class="project-link primary" aria-label="You're already here!">
+                  &#8599; You're Here
+                </a>
+                <span class="link-sep" aria-hidden="true">&#9632;</span>
+                <a href="#" class="project-link" aria-label="Portfolio source code">
+                  &#128279; Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         5. EXPERIENCE / JOURNEY SECTION
+         ============================================================ -->
+    <section id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="label">My path</span>
+          <h2 id="experience-heading">Journey</h2>
+          <div class="divider-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="timeline">
+
+          <!-- Entry 1: University -->
+          <article class="timeline-entry">
+            <div class="timeline-marker" aria-hidden="true">&#127979;</div>
+            <div class="timeline-content">
+              <div class="timeline-period">2025 — 2029</div>
+              <h3 class="timeline-institution">Jaypee University of Information Technology</h3>
+              <div class="timeline-role">B.Tech — Computer Science &amp; Engineering</div>
+              <p class="timeline-desc">
+                Currently pursuing a Bachelor's degree with a focus on software development,
+                web technologies, app development and problem solving. Actively building
+                real-world projects alongside academics to apply concepts in practice.
+              </p>
+            </div>
+          </article>
+
+          <!-- Entry 2: Self-learning / Early development -->
+          <article class="timeline-entry">
+            <div class="timeline-marker" aria-hidden="true">&#128187;</div>
+            <div class="timeline-content">
+              <div class="timeline-period">2023 — 2025</div>
+              <h3 class="timeline-institution">Self-Directed Learning</h3>
+              <div class="timeline-role">Frontend Development &amp; Design</div>
+              <p class="timeline-desc">
+                Independently explored HTML, CSS, C, and C++ — building personal projects,
+                learning design principles, and developing a strong foundation in
+                frontend development and creative problem solving.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         6. SERVICES SECTION
+         ============================================================ -->
+    <section id="services" aria-labelledby="services-heading">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="label">What I offer</span>
+          <h2 id="services-heading">What I Do</h2>
+          <div class="divider-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="services-grid">
+
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">&#9881;</div>
+            <h3 class="service-title">Frontend Development</h3>
+            <p class="service-desc">
+              Building responsive and accessible interfaces using modern HTML and CSS.
+              Clean code, strong structure and attention to browser compatibility.
+            </p>
+          </div>
+
+          <div class="service-card purple">
+            <div class="service-icon" aria-hidden="true">&#9998;</div>
+            <h3 class="service-title">UI Design</h3>
+            <p class="service-desc">
+              Designing clean interfaces with strong visual hierarchy and attention
+              to detail. Focused on clarity, balance and intentional aesthetics.
+            </p>
+          </div>
+
+          <div class="service-card purple">
+            <div class="service-icon" aria-hidden="true">&#10024;</div>
+            <h3 class="service-title">Creative Development</h3>
+            <p class="service-desc">
+              Combining design and technology to create distinctive digital experiences.
+              Bringing ideas to life with craft and creative thinking.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">&#128270;</div>
+            <h3 class="service-title">Problem Solving</h3>
+            <p class="service-desc">
+              Turning ideas and requirements into structured, practical solutions.
+              Breaking down complexity into clear, actionable steps.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         7. RESUME CTA SECTION
+         ============================================================ -->
+    <section id="resume" aria-labelledby="resume-heading">
+      <div class="container">
+        <div class="resume-cta">
+          <span class="label">Resume</span>
+          <h2 id="resume-heading">Want to know more?</h2>
+          <p>Take a closer look at my experience, skills and projects.</p>
+          <a href="resume.pdf"
+             class="btn btn-primary"
+             download
+             aria-label="Download Parth's resume PDF">
+            &#8595;&nbsp; Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         8. CONTACT SECTION
+         ============================================================ -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="label">Get in touch</span>
+          <h2 id="contact-heading">Let's Build Something</h2>
+          <div class="divider-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="contact-inner">
+
+          <!-- Info -->
+          <div class="contact-info">
+            <p class="contact-tagline">
+              Have an idea, project or opportunity?<br />
+              I'd love to hear from you. Let's create something great together.
+            </p>
+
+            <div class="contact-items">
+              <a href="mailto:your@email.com"
+                 class="contact-item"
+                 aria-label="Send email to Parth">
+                <div class="contact-item-icon" aria-hidden="true">&#9993;</div>
+                <div class="contact-item-details">
+                  <div class="contact-item-label">Email</div>
+                  <div class="contact-item-value">your@email.com</div>
+                </div>
+              </a>
+
+              <a href="https://github.com/agarwalparth020"
+                 class="contact-item"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Visit Parth's GitHub">
+                <div class="contact-item-icon" aria-hidden="true">&#128279;</div>
+                <div class="contact-item-details">
+                  <div class="contact-item-label">GitHub</div>
+                  <div class="contact-item-value">github.com/agarwalparth020</div>
+                </div>
+              </a>
+
+              <a href="https://linkedin.com/in/YOUR_LINKEDIN"
+                 class="contact-item"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Visit Parth's LinkedIn">
+                <div class="contact-item-icon" aria-hidden="true">&#128101;</div>
+                <div class="contact-item-details">
+                  <div class="contact-item-label">LinkedIn</div>
+                  <div class="contact-item-value">linkedin.com/in/YOUR_LINKEDIN</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="contact-form" role="region" aria-label="Contact form">
+            <!--
+              NOTE: This form is a UI mockup — it does not submit anywhere without a backend.
+              To make it functional, connect it to Formspree, Netlify Forms, or similar.
+              Replace action="" with your endpoint URL.
+            -->
+            <form action="#contact" method="post" novalidate>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Name</label>
+                  <input
+                    type="text"
+                    id="contact-name"
+                    name="name"
+                    placeholder="Your name"
+                    autocomplete="name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">Email</label>
+                  <input
+                    type="email"
+                    id="contact-email"
+                    name="email"
+                    placeholder="your@email.com"
+                    autocomplete="email"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <input
+                  type="text"
+                  id="contact-subject"
+                  name="subject"
+                  placeholder="What is this about?"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  placeholder="Tell me about your idea, project or opportunity…"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+                Send Message &nbsp;&#8594;
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+
+        <div class="footer-brand" aria-label="Parth Agarwal">PARTH</div>
+
+        <div class="footer-center">
+          <div class="footer-credit">Designed &amp; Built with HTML + CSS</div>
+          <div class="footer-copy">&copy; 2026 Parth. All rights reserved.</div>
+        </div>
+
+        <nav class="footer-socials" aria-label="Footer social links">
+          <a href="https://github.com/agarwalparth020"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="GitHub">GitHub</a>
+          <a href="https://linkedin.com/in/YOUR_LINKEDIN"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="LinkedIn">LinkedIn</a>
+          <a href="mailto:your@email.com"
+             aria-label="Email">Email</a>
+        </nav>
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
