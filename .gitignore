@@ -1,0 +1,32 @@
+# =============================================
+# Portfolio — .gitignore
+# =============================================
+
+# Android / Gradle generated caches
+.gradle/
+build/
+*.apk
+*.aab
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# Node / npm (if ever added)
+node_modules/
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code workspace settings (optional — remove if you want to share settings)
+# .vscode/
+
+# Backup files
+*_BACKUP_*/
+*.bak
+*.orig
