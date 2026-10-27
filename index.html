@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- ============================================================
        META & SEO
@@ -86,13 +87,12 @@
 
             <div class="hero-actions">
               <a href="#projects" class="btn btn-primary">View My Work</a>
-              <a href="#contact" class="btn btn-outline">Let's Connect</a>
+              <a href="resume.pdf" class="btn btn-outline" download aria-label="Download Parth's resume PDF">&#8595;&nbsp; Download Resume</a>
             </div>
 
             <div class="hero-socials">
-              <a href="https://github.com/agarwalparth020" class="social-link" target="_blank"
-                rel="noopener noreferrer" aria-label="GitHub profile">
-                <!-- GitHub icon using Unicode -->
+              <a href="https://github.com/agarwalparth020" class="social-link" target="_blank" rel="noopener noreferrer"
+                aria-label="GitHub profile">
                 &#128279; GitHub
               </a>
               <a href="https://www.linkedin.com/in/parth-agarwal-23513029a" class="social-link" target="_blank"
@@ -145,8 +145,8 @@
 
           <!-- Profile frame -->
           <div class="profile-frame" aria-label="Parth Agarwal profile photo">
-            <img src="photo.jpeg" alt="Parth Agarwal — Frontend Developer & Creative Designer" class="profile-photo"
-              loading="lazy" />
+            <img src="photo.jpeg"
+              alt="Parth Agarwal — Frontend Developer & Creative Designer" class="profile-photo" loading="lazy" />
           </div>
 
           <!-- Content -->
@@ -417,12 +417,12 @@
 
               <div class="project-links">
                 <a href="https://lala-ki-dukan.netlify.app" class="project-link primary"
-                  aria-label="View Lala Ki Dukan project">
+                  aria-label="View Lala Ki Dukan project" target="_blank" rel="noopener noreferrer">
                   &#8599; View Project
                 </a>
                 <span class="link-sep" aria-hidden="true">&#9632;</span>
                 <a href="https://github.com/agarwalparth020/LalaKiDukan.co.git" class="project-link"
-                  aria-label="Lala Ki Dukan source code">
+                  aria-label="Lala Ki Dukan source code" target="_blank" rel="noopener noreferrer">
                   &#128279; Source Code
                 </a>
               </div>
@@ -461,14 +461,12 @@
 
             <div class="project-body">
               <h3 class="project-title" id="proj3-title">CLUBORO — College Club Event Management App</h3>
-
               <p class="project-desc">
-                A mobile app for college students to discover, register, and track campus club
-                events. Features a gamified leaderboard with tier-based fee discounts, event
-                wishlisting, attendance streaks, and a dedicated admin dashboard for club
-                organizers to manage events and view analytics.
+                A mobile app for college students to discover, register, and track campus club events.
+                Features a gamified leaderboard with tier-based fee discounts, event wishlisting,
+                attendance streaks, and a dedicated admin dashboard for club organizers to manage
+                events and view analytics.
               </p>
-
               <div class="project-tags">
                 <span class="tag">Flutter</span>
                 <span class="tag">Dart</span>
@@ -478,7 +476,6 @@
                 <span class="tag">Provider</span>
                 <span class="tag">fl_chart</span>
               </div>
-
               <div class="project-links">
                 <a href="#" class="project-link primary" aria-label="View CLUBORO project">
                   &#8599; View Project
@@ -653,9 +650,14 @@
           <span class="label">Resume</span>
           <h2 id="resume-heading">Want to know more?</h2>
           <p>Take a closer look at my experience, skills and projects.</p>
-          <a href="resume.pdf" class="btn btn-primary" download aria-label="Download Parth's resume PDF">
-            &#8595;&nbsp; Download Resume
-          </a>
+          <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 0.5rem;">
+            <a href="resume.pdf" class="btn btn-primary" download aria-label="Download Parth's resume PDF">
+              &#8595;&nbsp; Download Resume
+            </a>
+            <a href="resume.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer" aria-label="View Parth's resume PDF online">
+              &#128065;&nbsp; View Online
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -682,15 +684,13 @@
             </p>
 
             <div class="contact-items">
-              <a href="mailto:251030176@juitsolan.in" class="contact-item"
-                aria-label="Send email to Parth">
+              <a href="mailto:251030176@juitsolan.in" class="contact-item" aria-label="Send email to Parth">
                 <div class="contact-item-icon" aria-hidden="true">&#9993;</div>
                 <div class="contact-item-details">
                   <div class="contact-item-label">Email</div>
                   <div class="contact-item-value">251030176@juitsolan.in</div>
                 </div>
               </a>
-
               <a href="https://github.com/agarwalparth020" class="contact-item" target="_blank"
                 rel="noopener noreferrer" aria-label="Visit Parth's GitHub">
                 <div class="contact-item-icon" aria-hidden="true">&#128279;</div>
@@ -699,7 +699,6 @@
                   <div class="contact-item-value">github.com/agarwalparth020</div>
                 </div>
               </a>
-
               <a href="https://www.linkedin.com/in/parth-agarwal-23513029a" class="contact-item" target="_blank"
                 rel="noopener noreferrer" aria-label="Visit Parth's LinkedIn">
                 <div class="contact-item-icon" aria-hidden="true">&#128101;</div>
@@ -713,23 +712,22 @@
 
           <!-- Form -->
           <div class="contact-form" role="region" aria-label="Contact form">
-            <form action="https://formspree.io/f/mppqvnbr" method="post">
-
-              <!-- Formspree: hidden subject line -->
-              <input type="hidden" name="_subject" value="New message from Portfolio — Parth Agarwal" />
-              <!-- Honeypot anti-spam -->
-              <input type="text" name="_gotcha" style="display:none" />
+            <!--
+              NOTE: This form is a UI mockup — it does not submit anywhere without a backend.
+              To make it functional, connect it to Formspree, Netlify Forms, or similar.
+              Replace action="" with your endpoint URL.
+            -->
+            <form action="#contact" method="post" novalidate>
 
               <div class="form-row">
                 <div class="form-group">
                   <label for="contact-name">Name</label>
-                  <input type="text" id="contact-name" name="name" placeholder="Your name"
-                    autocomplete="name" required />
+                  <input type="text" id="contact-name" name="name" placeholder="Your name" autocomplete="name" />
                 </div>
                 <div class="form-group">
                   <label for="contact-email">Email</label>
                   <input type="email" id="contact-email" name="email" placeholder="your@email.com"
-                    autocomplete="email" required />
+                    autocomplete="email" />
                 </div>
               </div>
 
@@ -741,7 +739,7 @@
               <div class="form-group">
                 <label for="contact-message">Message</label>
                 <textarea id="contact-message" name="message"
-                  placeholder="Tell me about your idea, project or opportunity…" required></textarea>
+                  placeholder="Tell me about your idea, project or opportunity…"></textarea>
               </div>
 
               <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
@@ -784,5 +782,4 @@
   </footer>
 
 </body>
-
 </html>
